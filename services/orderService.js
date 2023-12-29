@@ -155,6 +155,7 @@ exports.checkOutSession = asyncHandler(async (req, res, next) => {
          // Handle the checkout.session.completed event
          if (event.type === 'checkout.session.completed') {
             console.log('Create order Here.....')
+            console.log(event.data.object.client_reference_id)
          }
   })
   

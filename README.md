@@ -1,6 +1,6 @@
 # Node.js E-Commerce API
 
-This is the backend for a Node.js-based E-Commerce application built using the Express framework.
+This is the backend for a Node. js-based E-Commerce application built using the Express framework.
 
 ## Table of Contents
 
@@ -11,9 +11,6 @@ This is the backend for a Node.js-based E-Commerce application built using the E
 - [Usage](#usage)
 - [Scripts](#scripts)
 - [Dependencies](#dependencies)
-- [Dev Dependencies](#dev-dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -46,7 +43,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/node-js-ecommerce-api.git
+   git clone https://github.com/mohy404/E-commerce-Backend.git
 
 
 Navigate to the project directory:
@@ -81,7 +78,7 @@ Scripts
 start:dev: Start the development server using nodemon.
 start:prod: Start the production server.
 
-Dependencies
+## Dependencies
 bcrypt
 colors
 compression

@@ -12,10 +12,10 @@ const globalError = require('./middleware/errorMiddleware')
 const dbConnection = require('./config/database')
 const {webhookCheckout} = require('./services/orderService')
 
-// Routes
+//Routes
 const mountRoutes = require('./routes')
 
-// Connect with DB
+//Connect with DB
 dbConnection()
 
 // Express App

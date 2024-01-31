@@ -23,8 +23,8 @@ const categorySchema = new mongoose.Schema({
 
 const setImageURL = (doc) => {
     if (doc.image) {
-        const imagePath = `categories/${doc.image}`
-        doc.image = imagePath
+        const imageUrl = `${process.env.BASE_URL}/categories/${doc.image}`
+        doc.image = imageUrl
     }
 }
 // has been initialized from the db

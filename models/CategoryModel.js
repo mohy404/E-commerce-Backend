@@ -16,6 +16,7 @@ const categorySchema = new mongoose.Schema({
         lowercase: true,
     },
     image: String,
+    
 }, // This to create two filds on the database updata add , create add
 {timestamps: true}
 )

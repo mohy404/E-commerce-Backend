@@ -108,7 +108,7 @@ const setImageURL = (doc) => {
         doc.images = imagesList
     }
 }
-// has been initialized from the db
+// has been initialized from the DB
 productSchema.post('init', (doc) =>{
     setImageURL(doc)
    
